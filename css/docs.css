@@ -6,7 +6,7 @@ body {
 }
 
 body > .container {
-	padding: 0 20px 0 20px;
+	padding: 0 1em 0 1em;
 }
 
 .header,
@@ -38,6 +38,7 @@ span.logo {
 	display: inline-block;
 	float: left;
 	height: 24px;
+	margin-left: 10px;
 	width: 24px;
 }
 
