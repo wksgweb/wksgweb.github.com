@@ -153,3 +153,10 @@ p.page-top {
 p.page-top a {
 	color: #000;
 }
+
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.span7 {
+		width: 770px;
+	}
+}
