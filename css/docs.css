@@ -1,0 +1,139 @@
+@charset 'utf-8';
+
+body {
+	font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+	padding: 0;
+}
+
+body > .container {
+	padding: 0 20px 0 20px;
+}
+
+.header,
+.footer {
+	height: 40px;
+	background: #f9f9f9; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Y5ZjlmOSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmM2YzZjMiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #f9f9f9 0%, #f3f3f3 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f9f9f9), color-stop(100%,#f3f3f3)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #f9f9f9 0%,#f3f3f3 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #f9f9f9 0%,#f3f3f3 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #f9f9f9 0%,#f3f3f3 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #f9f9f9 0%,#f3f3f3 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#f3f3f3',GradientType=0 ); /* IE6-8 */
+}
+
+.header {
+	border-bottom: 1px solid #E5E5E5;
+}
+
+.header .container {
+	overflow: hidden;
+	padding-top: 8px;
+}
+
+span.logo {
+	background: url('../img/glyphicons/png/glyphicons_401_github.png') no-repeat left top;
+	display: inline-block;
+	float: left;
+	height: 24px;
+	width: 24px;
+}
+
+h1 {
+	float: left;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 15px;
+	line-height: 24px;
+	margin: 0 0 0 10px;
+}
+
+h2 {
+	margin-bottom: 0;
+}
+
+h2.page-header {
+	background: url('../img/glyphicons/png/glyphicons_150_edit.png') no-repeat left 10px;
+	padding-left: 34px;
+}
+
+h2.achievement {
+	background: url('../img/glyphicons/png/glyphicons_086_display.png') no-repeat left 6px;
+	font-size: 20px;
+	padding-left: 34px;
+}
+
+h3.html {
+	background: url('../img/glyphicons/png/glyphicons_269_keyboard_wired.png') no-repeat right 6px;
+}
+
+h3.css {
+	background: url('../img/glyphicons/png/glyphicons_372_spray.png') no-repeat right 6px;
+}
+
+h3.js {
+	background: url('../img/glyphicons/png/glyphicons_280_settings.png') no-repeat right 6px;
+}
+.table {
+	font-size: 12px;
+}
+
+.table tr:first-child td {
+	border-top: none;
+}
+
+.table-hover tbody tr:hover td {
+	background-color: #fafafa
+}
+
+.table.span7 {
+	margin-left: 0;
+}
+
+.table .label {
+	font-size: 10px;
+}
+
+span.view-html {
+	margin-left: 10px;
+}
+
+span.view-html a {
+	color: #999;
+	text-decoration: none;
+}
+span.view-html a:hover {
+	color: #777;
+	text-decoration: underline;
+}
+
+h2.qualification {
+	background: url('../img/glyphicons/png/glyphicons_030_pencil.png') no-repeat left 6px;
+	font-size: 20px;
+	padding-left: 34px;
+}
+
+.table.table-striped th,
+.table.table-striped td {
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+h2.skills {
+	background: url('../img/glyphicons/png/glyphicons_374_claw_hammer.png') no-repeat left 6px;
+	font-size: 20px;
+	padding-left: 34px;
+}
+
+h4 {
+	font-size: 16px;
+}
+
+h4 + ul.unstyled {
+	margin-left: 1.5em;
+}
+
+.footer {
+	border-top: 1px solid #E5E5E5;
+}
