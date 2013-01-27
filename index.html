@@ -4,66 +4,357 @@
   <head>
     <meta charset='utf-8' />
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
-    <meta name="description" content="Wksgweb.github.com : " />
+    <meta name="keyword" content="HTML,CSS,HTML5,CSS3,JavaScript,jQuery" />
+    <meta name="description" content="HTML、CSS、JavaScript、jQueryで作成したページの紹介と、職務経験、資格、スキルを紹介するページです。" />
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="bootstrap/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/docs.css">
 
-    <title>Wksgweb.github.com</title>
+    <!--[if gte IE 9]>
+    <style type="text/css">
+      .gradient {
+        filter: none;
+      }
+    </style>
+    <![endif]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script>
+    $(function(){
+      $('#achievement-tab a').click(function (e) {
+        e.preventDefault();
+        $(this).tab('show');
+      })      
+    })
+    </script>
+
+    <title>HTML、CSS、JavaScriptで作成したページ</title>
   </head>
 
   <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/wksgweb">View on GitHub</a>
-
-          <h1 id="project_title">Wksgweb.github.com</h1>
-          <h2 id="project_tagline"></h2>
-
-        </header>
+    <div class="header">
+      <div class="container clearfix">
+        <span class="logo"></span>
+        <h1>wksgweb.github.com</h1>
+      </div>
     </div>
+    <div class="container">
+      <h2 class="page-header">ウェブ制作スキル</h2>
+      <div class="row-fluid">
+        <div class="span3">
+          <h3 class="html">HTML,HTML5</h3>
+          <p>実務で2年間、HTMLコーディングの経験があります。スマホ用サイトと社内システム用ウェブページでHTML5を使ったコーディングの経験があります。</p>
+        </div>
+        <div class="span3 offset1">
+          <h3 class="css">CSS,CSS3</h3>
+          <p>フルCSSのページ制作、スマホ用サイトと社内システム用ウェブページでCSS3を使ったコーディングの経験があります。</p>
+        </div>
+        <div class="span3 offset1">
+          <h3 class="js">JavaScript,jQuery</h3>
+          <p>スマホ用サイトと社内システム用ウェブページでJavaScript、jQueryのコーディング、jQueryプラグインの組み込みを行った経験があります。</p>
+        </div>
+      </div>
+      <h2 class="achievement">制作したページ</h2>
+      <ul class="nav nav-tabs" id="achievement-tab">
+        <li class="active"><a href="#business">実務</a></li>
+        <li><a href="#study">学習</a></li>
+      </ul>
+      <div class="tab-content">
+        <div class="tab-pane active" id="business">
+          <table class="table table-hover span7">
+            <tbody>
+              <tr>
+                <td>
+                  <a href="https://www.ex-shop.net/" target="_blank">エクスショップ-デジタルアライアンス様</a>
+                  <div>
+                    <span class="label label-success">HTML</span>
+                    <span class="label label-info">CSS</span>
+                  </div>
+                </td>
+                <td>
+                  2012-11-1
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="https://www.ex-shop.net/sp/" target="_blank">エクスショップスマホ版-デジタルアライアンス様</a>
+                  <div>
+                    <span class="label label-important">HTML5</span>
+                    <span class="label label-warning">CSS3</span>
+                    <span class="label label-inverse">jQuery</span>
+                  </div>
+                </td>
+                <td>
+                  2012-11-1
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="http://feel-m.com/" target="_blank">フィール・マネジメント様</a>
+                  <div>
+                    <span class="label label-success">HTML</span>
+                    <span class="label label-info">CSS</span>
+                  </div>
+                </td>
+                <td>
+                  2012-3-14
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="http://www.usj-edu.or.jp/" target="_blank">日米教育研究所様</a>
+                  <div>
+                    <span class="label label-success">HTML</span>
+                    <span class="label label-info">CSS</span>
+                  </div>
+                </td>
+                <td>
+                  2012-1-25
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="http://yoipre.com/" target="_blank">よいプレ-株式会社メリックス様</a>
+                  <div>
+                    <span class="label label-success">HTML</span>
+                    <span class="label label-info">CSS</span>
+                  </div>
+                </td>
+                <td>
+                  2011-9-20
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="http://www.advan-atom.jp/" target="_blank">株式会社アドバンテック様</a>
+                  <div>
+                    <span class="label label-success">HTML</span>
+                    <span class="label label-info">CSS</span>
+                  </div>
+                </td>
+                <td>
+                  2011-9-2
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <div class="tab-pane" id="study">
+          <table class="table table-hover span7">
+            <tbody>
+              <tr>
+                <td>
+                  <a href="http://wksgweb.github.com/dental/" target="_blank">歯科医院</a>
+                  <span class="view-html"><a href="https://github.com/wksgweb/dental" target="_blank">ソースを見る</a></span>
+                  <div>
+                    <span class="label label-success">HTML</span>
+                    <span class="label label-info">CSS</span>
+                    <span class="label label-inverse">jQuery</span>
+                  </div>
+                </td>
+                <td>
+                  2011-11-24
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="http://wksgweb.github.com/ordermadesuits/" target="_blank">オーダーメイドスーツ</a>
+                  <span class="view-html"><a href="https://github.com/wksgweb/ordermadesuits" target="_blank">ソースを見る</a></span>
+                  <div>
+                    <span class="label label-success">HTML</span>
+                    <span class="label label-info">CSS</span>
+                    <span class="label label-inverse">jQuery</span>
+                  </div>
+                </td>
+                <td>
+                  2011-11-18
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="http://wksgweb.github.com/recycle/" target="_blank">リサイクル会社</a>
+                  <span class="view-html"><a href="https://github.com/wksgweb/recycle" target="_blank">ソースを見る</a></span>
+                  <div>
+                    <span class="label label-success">HTML</span>
+                    <span class="label label-info">CSS</span>
+                  </div>
+                </td>
+                <td>
+                  2011-8-2
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="http://wksgweb.github.com/npo-smartphone/" target="_blank">NPO法人-スマホ版</a>
+                  <span class="view-html"><a href="https://github.com/wksgweb/npo-smartphone" target="_blank">ソースを見る</a></span>
+                  <div>
+                    <span class="label label-success">HTML</span>
+                    <span class="label label-info">CSS</span>
+                  </div>
+                </td>
+                <td>
+                  2011-7-14
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="http://wksgweb.github.com/npo/" target="_blank">NPO法人</a>
+                  <span class="view-html"><a href="https://github.com/wksgweb/npo" target="_blank">ソースを見る</a></span>
+                  <div>
+                    <span class="label label-success">HTML</span>
+                    <span class="label label-info">CSS</span>
+                  </div>
+                </td>
+                <td>
+                  2011-7-12
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="http://wksgweb.github.com/yodoyabashi-info6/" target="_blank">淀屋橋情報６</a>
+                  <span class="view-html"><a href="https://github.com/wksgweb/yodoyabashi-info6" target="_blank">ソースを見る</a></span>
+                  <div>
+                    <span class="label label-success">HTML</span>
+                    <span class="label label-info">CSS</span>
+                  </div>
+                </td>
+                <td>
+                  2011-4-27
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="http://wksgweb.github.com/yodoyabashi-info5/" target="_blank">淀屋橋情報５</a>
+                  <span class="view-html"><a href="https://github.com/wksgweb/yodoyabashi-info5" target="_blank">ソースを見る</a></span>
+                  <div>
+                    <span class="label label-success">HTML</span>
+                    <span class="label label-info">CSS</span>
+                  </div>
+                </td>
+                <td>
+                  2011-4-27
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="http://wksgweb.github.com/yodoyabashi-info4/" target="_blank">淀屋橋情報４</a>
+                  <span class="view-html"><a href="https://github.com/wksgweb/yodoyabashi-info4" target="_blank">ソースを見る</a></span>
+                  <div>
+                    <span class="label label-success">HTML</span>
+                    <span class="label label-info">CSS</span>
+                  </div>
+                </td>
+                <td>
+                  2011-4-27
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="http://wksgweb.github.com/yodoyabashi-info3/" target="_blank">淀屋橋情報３</a>
+                  <span class="view-html"><a href="https://github.com/wksgweb/yodoyabashi-info3" target="_blank">ソースを見る</a></span>
+                  <div>
+                    <span class="label label-success">HTML</span>
+                    <span class="label label-info">CSS</span>
+                  </div>
+                </td>
+                <td>
+                  2011-4-27
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="http://wksgweb.github.com/yodoyabashi-info2/" target="_blank">淀屋橋情報２</a>
+                  <span class="view-html"><a href="https://github.com/wksgweb/yodoyabashi-info2" target="_blank">ソースを見る</a></span>
+                  <div>
+                    <span class="label label-success">HTML</span>
+                    <span class="label label-info">CSS</span>
+                  </div>
+                </td>
+                <td>
+                  2011-4-27
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="http://wksgweb.github.com/yodoyabashi-info1/" target="_blank">淀屋橋情報１</a>
+                  <span class="view-html"><a href="https://github.com/wksgweb/yodoyabashi-info1" target="_blank">ソースを見る</a></span>
+                  <div>
+                    <span class="label label-success">HTML</span>
+                    <span class="label label-info">CSS</span>
+                  </div>
+                </td>
+                <td>
+                  2011-4-27
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <h2 class="qualification">取得した資格</h2>
+      <div class="container">
+        <table class="table table-striped span7">
+          <thead>
+            <tr>
+              <th>資格名</th>
+              <th>取得年月日</th>
+              <th>試験実施団体</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>LPIC Level1<br>LPI000222202</td>
+              <td>2011-1-15</td>
+              <td>Linux Professional Institute</td>
+            </tr>
+            <tr>
+              <td>応用情報技術者試験<br>第AP-2010-10-08223号</td>
+              <td>2010-12-20</td>
+              <td>独立行政法人情報処理推進機構</td>
+            </tr>
+            <tr>
+              <td>基本情報技術者試験<br>第FE-2009-10-24228号</td>
+              <td>2009-11-16</td>
+              <td>独立行政法人情報処理推進機構</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <h2 class="skills">その他のスキル</h2>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>Welcome to GitHub Pages.</h3>
-
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
-
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
-
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
-
-<h3>Designer Templates</h3>
-
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
-
-<h3>Rather Drive Stick?</h3>
-
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
-
-<h3>Authors and Contributors</h3>
-
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
-
-<h3>Support or Contact</h3>
-
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
+      <div class="row-fluid">
+        <div class="span2">
+          <h4>システム関連</h4>
+          <ul class="unstyled">
+            <li>Linux(CentOS)</li>
+            <li>PHP(Smarty,PEAR)</li>
+            <li>WordPress</li>
+          </ul>
+        </div>
+        <div class="span2">
+          <h4>アドビ製品</h4>
+          <ul class="unstyled">
+            <li>Photoshop</li>
+            <li>Fireworks</li>
+            <li>Illustrator</li>
+          </ul>
+        </div>
+        <div class="span2">
+          <h4>オフィス</h4>
+          <ul class="unstyled">
+            <li>Word</li>
+            <li>Excel</li>
+            <li>Access</li>
+            <li>Powerpoint</li>
+          </ul>
+        </div>
+      </div>
+      <div style="max-width: 400px; margin: 50px auto 10px;" class="well">
+        <a href="https://github.com/wksgweb" target="_blank" class="btn btn-large btn-block btn-primary"><i class="icon-check icon-white"></i> view on github.com</a>
+      </div>
     </div>
-
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-      </footer>
+    <div class="footer">
     </div>
-
-    
-
   </body>
 </html>
