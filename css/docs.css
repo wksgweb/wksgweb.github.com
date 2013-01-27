@@ -137,3 +137,13 @@ h4 + ul.unstyled {
 .footer {
 	border-top: 1px solid #E5E5E5;
 }
+
+p.page-top {
+	font-size: 12px;
+	text-align: right;
+	margin-bottom: 0;
+}
+
+p.page-top a {
+	color: #000;
+}

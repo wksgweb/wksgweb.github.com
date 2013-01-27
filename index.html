@@ -25,14 +25,18 @@
       $('#achievement-tab a').click(function (e) {
         e.preventDefault();
         $(this).tab('show');
-      })      
+      });
+      $(".page-top").click(function () {
+        $('html,body').animate({ scrollTop: 0 }, 'slow');
+        return false;
+      });      
     })
     </script>
 
     <title>HTML、CSS、JavaScriptで作成したページ</title>
   </head>
 
-  <body>
+  <body id="page-top">
     <div class="header">
       <div class="container clearfix">
         <span class="logo"></span>
@@ -353,6 +357,7 @@
       <div style="max-width: 400px; margin: 50px auto 10px;" class="well">
         <a href="https://github.com/wksgweb" target="_blank" class="btn btn-large btn-block btn-primary"><i class="icon-check icon-white"></i> view on github.com</a>
       </div>
+      <p class="page-top"><a href="#page-top"><i class="icon-chevron-up"></i>ページの先頭へ</a></p>
     </div>
     <div class="footer">
     </div>
