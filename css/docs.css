@@ -157,6 +157,6 @@ p.page-top a {
 /* Landscape phones and down */
 @media (max-width: 480px) {
 	.span7 {
-		width: 770px;
+		width: 100%;
 	}
 }
