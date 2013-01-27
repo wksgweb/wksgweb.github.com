@@ -80,6 +80,11 @@ h3.js {
 	font-size: 12px;
 }
 
+.table th, .table td {
+	padding-left: 0;
+	padding-right: 0;
+}
+
 .table tr:first-child td {
 	border-top: none;
 }
