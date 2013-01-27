@@ -156,7 +156,7 @@ p.page-top a {
 
 /* Landscape phones and down */
 @media (max-width: 480px) {
-	.span7 {
-		width: 100%;
-	}
+  .visible-phone {
+    display: inherit !important;
+  }
 }
