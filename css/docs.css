@@ -69,6 +69,8 @@ h3.css,
 h3.js {
     margin-bottom: 0;
 }
+
+/*
 h3.html {
 	background: url('../img/glyphicons/png/glyphicons_269_keyboard_wired.png') no-repeat right 6px;
 }
@@ -80,6 +82,8 @@ h3.css {
 h3.js {
 	background: url('../img/glyphicons/png/glyphicons_280_settings.png') no-repeat right 6px;
 }
+*/
+
 .table {
 	font-size: 12px;
 }
