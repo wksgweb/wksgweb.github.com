@@ -40,13 +40,17 @@ h1.page-header {
 }
 
 h2 {
-    font-weight: 600;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #999;
+    font-size: 24px;
+    font-weight: 500;
 }
 
 h2.achievement {
 	background: url('../img/glyphicons/png/glyphicons_086_display.png') no-repeat left 6px;
-	font-size: 20px;
+    border-bottom: none;
 	padding-left: 34px;
+    padding-bottom: 0;
 }
 
 .main-skill {
@@ -129,7 +133,6 @@ span.view-html a:hover {
 
 h2.qualification {
 	background: url('../img/glyphicons/png/glyphicons_030_pencil.png') no-repeat left 6px;
-	font-size: 20px;
 	padding-left: 34px;
 }
 
@@ -141,7 +144,6 @@ h2.qualification {
 
 h2.skills {
 	background: url('../img/glyphicons/png/glyphicons_374_claw_hammer.png') no-repeat left 6px;
-	font-size: 20px;
 	padding-left: 34px;
 }
 
