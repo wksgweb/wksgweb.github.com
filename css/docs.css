@@ -24,39 +24,23 @@ body > .container {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f9f9f9', endColorstr='#f3f3f3',GradientType=0 ); /* IE6-8 */
 }
 
-.header {
-	border-bottom: 1px solid #E5E5E5;
+header {
+    text-align: center;
 }
 
-.header .container {
-	overflow: hidden;
-	padding-top: 8px;
-}
-
-span.logo {
-	background: url('../img/glyphicons/png/glyphicons_401_github.png') no-repeat left top;
-	display: inline-block;
-	float: left;
-	height: 24px;
-	margin-left: 10px;
-	width: 24px;
-}
-
-h1 {
-	float: left;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size: 15px;
-	line-height: 24px;
-	margin: 0 0 0 10px;
+h1.page-header {
+    display: inline-block;
+	background: url('../img/glyphicons/png/glyphicons_150_edit.png') no-repeat left 10px;
+    border-bottom: none;
+    margin: 30px 0 30px;
+	padding-left: 34px;
+    padding-bottom: 0;
+    font-size: 30px;
+    font-weight: 500;
 }
 
 h2 {
-	margin-bottom: 0;
-}
-
-h2.page-header {
-	background: url('../img/glyphicons/png/glyphicons_150_edit.png') no-repeat left 10px;
-	padding-left: 34px;
+    font-weight: 600;
 }
 
 h2.achievement {
@@ -64,10 +48,17 @@ h2.achievement {
 	font-size: 20px;
 	padding-left: 34px;
 }
+
+.main-skill {
+    margin-bottom: 30px;
+}
+
 h3.html,
 h3.css,
 h3.js {
-    margin-bottom: 0;
+    margin: 0;
+    font-family: Arial, Meiryo ,"Segoe UI";
+    font-weight: 600;
 }
 
 /*
@@ -83,14 +74,20 @@ h3.js {
 	background: url('../img/glyphicons/png/glyphicons_280_settings.png') no-repeat right 6px;
 }
 */
-
+.nav-tabs {
+    margin-bottom: 0;
+}
 .table {
-	font-size: 12px;
+    width: 100%;
+	font-size: 14px;
 }
 
-.table th, .table td {
+.table th,
+.table td {
+    padding: 12px;
 	padding-left: 0;
 	padding-right: 0;
+    vertical-align: middle;
 }
 
 .table tr:first-child td {
@@ -106,7 +103,15 @@ h3.js {
 }
 
 .table .label {
-	font-size: 10px;
+    margin-top: 5px;
+	font-size: 12px;
+    font-weight: normal;
+    text-shadow: none;
+}
+
+.works td:nth-of-type(2) {
+    padding-right: 10px;
+    text-align: right;
 }
 
 span.view-html {
@@ -145,7 +150,7 @@ h4 {
 }
 
 h4 + ul.unstyled {
-	margin-left: 1.5em;
+	margin-left: 0.5em;
 }
 
 .footer {
@@ -155,7 +160,7 @@ h4 + ul.unstyled {
 p.page-top {
 	font-size: 12px;
 	text-align: right;
-	margin-bottom: 0;
+	margin: 50px 0;
 }
 
 p.page-top a {
