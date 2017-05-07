@@ -64,7 +64,11 @@ h2.achievement {
 	font-size: 20px;
 	padding-left: 34px;
 }
-
+h3.html,
+h3.css,
+h3.js {
+    margin-bottom: 0;
+}
 h3.html {
 	background: url('../img/glyphicons/png/glyphicons_269_keyboard_wired.png') no-repeat right 6px;
 }
@@ -162,12 +166,12 @@ p.page-top a {
 }
 
 .block_btn {
-  max-width: 400px;
-  margin: 50px auto 10px;
+    max-width: 400px;
+    margin: 50px auto 10px;
 }
 .block_btn a.btn_view_github {
-  background: #28a745;
-  border-radius: 3px;
-  box-shadow: none;
-  text-shadow: none;
+    background: #28a745;
+    border-radius: 3px;
+    box-shadow: none;
+    text-shadow: none;
 }
